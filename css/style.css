@@ -4,16 +4,33 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.btn{
+    background-color: #E02C6D;
+    height: 6vh;
+    border: 0;
+    width: 12vw;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.para_primary{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: small;
+}
 
 /* header section */
 .navbar{
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
-    padding: 2rem;
+    padding: 2rem 3rem;
     align-items: center;
+    color: #3A3A3A;
 }
-.navbar h3{
+.navbar h3, h1{
+    color: #3A3A3A;
     font-weight: 700;
 }
 
@@ -24,6 +41,7 @@
 }
 .navbar>ul li{
     list-style: none;
+    cursor: pointer;
 }
 .navbar>ul li img{
     width: 2vw;
@@ -38,41 +56,28 @@
     display: none;
 }
 
+.highlight_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
 
-/*Responsive design */
-@media screen and (max-width:576px) {
-    /* navbar starts */
-    .mobile_tog{
-        display: none;
-    }
-    .navbar{
-        justify-content: space-around;
-    }
-    .hamburger{
-        display: block;
-    }
-    .hamburger > div{
-        display: block;
-    }
-    .navbar>ul li img{
-        width: 70%;
-    }
-    /* navbar ends */
-    
 }
-
-/* medium devices */
-@media screen and (min-width:577px) and (max-width:960px) {
-    /* navbar starts */
-    .navbar{
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .navbar>ul {
-        gap: 3rem;
-    }
-    .navbar>ul li img {
-        width: 4vw;
-    }
-    /* navbar ends */
+.high_box{
+    width: fit-content;
+    height: fit-content;
+}
+.high_box1{
+    height: fit-content;
+}
+.high_box1 p{
+    padding-right:10rem;
+}
+.high_box1 h1,p,button{
+    margin-bottom: 1rem;
+}
+.high_box2{
+    background-image: url('../images/Circle\ design.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
