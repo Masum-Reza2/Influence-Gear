@@ -20,6 +20,13 @@
     font-size: small;
 }
 
+button:hover,li:hover{
+    transform: translateY(-0.13rem);
+}
+button:active,li:active{
+    transform: translateY(0.13rem);
+}
+
 /* header section */
 .navbar{
     display: flex;
