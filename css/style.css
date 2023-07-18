@@ -123,7 +123,7 @@
 .item_parent{
     display: grid;
     grid-template-columns: repeat(3,25vw);
-    grid-template-rows: repeat(3,70vh);
+    grid-template-rows: repeat(3,75vh);
     gap: 1.5rem;
     place-content: center;
     padding: 2rem;
@@ -148,4 +148,8 @@
 }
 .items img{
     width: 100%;
+}
+.stars{
+    display: inline-block;
+    margin: 10px 0;
 }
