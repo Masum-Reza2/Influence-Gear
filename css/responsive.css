@@ -88,6 +88,11 @@
     .featured_section{
         padding-top: 2rem;
     }
+    /* footer styles */
+    footer{
+        height: 20vh;
+        margin-top: 2rem;
+    }
 }
 
 /* medium devices */
@@ -155,5 +160,10 @@
         }
         .featured_section{
             padding-top: 6rem;
+        }
+        footer{
+            height: 20vh;
+            margin-top: 8rem;
+            width: auto;
         }
 }
