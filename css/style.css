@@ -81,3 +81,30 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* sponsors section */
+.sponsors{
+    height: fit-content;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding: 2rem;
+    /* box-shadow: 1px 1px 3px black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.sponsor_box{
+    width: fit-content ;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponsor_box img{
+    width: 70%;
+}
