@@ -78,6 +78,16 @@
         height: 6vh;
         margin: 1rem auto;
     }
+    /* featured_section styles */
+    .featured_section{
+        flex-direction: column-reverse;
+    }
+    .featured_box{
+        width: 80vw;
+    }
+    .featured_section{
+        padding-top: 2rem;
+    }
 }
 
 /* medium devices */
@@ -136,4 +146,14 @@
         height: 6vh;
         margin: 1rem auto;
     }
+        /* featured_section styles */
+        .featured_section{
+            flex-direction: column-reverse;
+        }
+        .featured_box{
+            width: 80vw;
+        }
+        .featured_section{
+            padding-top: 6rem;
+        }
 }

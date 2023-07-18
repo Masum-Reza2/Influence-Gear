@@ -179,3 +179,39 @@
     border-radius: 6px;
     margin: 1rem auto;
 }
+
+/* featured_section styles */
+.featured_section{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.featured_box{
+    height: fit-content;
+    width: 40vw;
+}
+.featured_box h1{
+    font-weight: 700;
+}
+.featured_box p{
+    color: #3A3A3A;
+    font-size: small;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.featured_box_1{
+    width: 30vw;
+}
+.featured_box_1 img{
+    width: 100%;
+}
+.join_button{
+    background-color: #E02C6D;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
