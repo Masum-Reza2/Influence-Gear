@@ -62,6 +62,22 @@
     .popular_collection h1{
         margin-bottom: 2rem;
     }
+    /* .btn_see_more{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 1rem;
+        right: 4.4rem;
+        font-size: 16px;
+    } */
+    .btn_see_more{
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        height: 6vh;
+        margin: 1rem auto;
+    }
 }
 
 /* medium devices */
@@ -110,5 +126,14 @@
     }
     .popular_collection h1{
         margin-bottom: 2rem;
+    }
+    .btn_see_more{
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        height: 6vh;
+        margin: 1rem auto;
     }
 }
