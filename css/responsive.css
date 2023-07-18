@@ -1,9 +1,9 @@
 /*Responsive design */
 
-body{
+/* body{
     max-width: 1280px;
     margin: 0 auto;
-}
+} */
 
 @media screen and (max-width:576px) {
     /* navbar starts */
@@ -47,6 +47,21 @@ body{
         height: 10vh;
         font-size: 1.5rem;
     }
+    .sponsors{
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    /* collection section */
+    .item_parent{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 0;
+        place-items: center;
+    }
+    .popular_collection h1{
+        margin-bottom: 2rem;
+    }
 }
 
 /* medium devices */
@@ -85,5 +100,15 @@ body{
         width: 50vw;
         height: 10vh;
         font-size: 1.5rem;
+    }
+    /* collection section */
+    .item_parent{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        padding: 0;
+        place-items: center;
+    }
+    .popular_collection h1{
+        margin-bottom: 2rem;
     }
 }
